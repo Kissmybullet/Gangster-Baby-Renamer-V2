@@ -54,7 +54,7 @@ async def start(client, message):
                                       [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
                                       ]))
         return
     if id:
@@ -68,7 +68,7 @@ async def start(client, message):
                                               [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
                                           ]))
             except:
                 return
@@ -88,7 +88,7 @@ async def start(client, message):
                                           [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
                                           ]))
     
 
@@ -130,7 +130,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("🔺 Ongoing channel 🔺", url='https://t.me/Anime_Guardians_ongoing')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/shadow_Guardians'),
                                                                      InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Anime_Chat_Guardians')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
@@ -138,9 +138,9 @@ async def send_doc(client, message):
     c_time = time.time()
 
     if user_type == "Free":
-        LIMIT = 600
-    else:
         LIMIT = 50
+    else:
+        LIMIT = 00
     then = used_date + LIMIT
     left = round(then - c_time)
     conversion = datetime.timedelta(seconds=left)
