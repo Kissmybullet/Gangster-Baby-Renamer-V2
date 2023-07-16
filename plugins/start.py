@@ -54,7 +54,7 @@ async def start(client, message):
                                       [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
+                                      [InlineKeyboardButton("☕ News ☕", url='https://t.me/News_Guardians')]
                                       ]))
         return
     if id:
@@ -68,7 +68,7 @@ async def start(client, message):
                                               [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                              InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
+                                             [InlineKeyboardButton("☕ News ☕", url='https://t.me/News_Guardians')]
                                           ]))
             except:
                 return
@@ -88,7 +88,7 @@ async def start(client, message):
                                           [InlineKeyboardButton("🦋 Ongoing Anime 🦋", url="https://t.me/Anime_Guardians_ongoing")],
                                           [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Chat_Guardians'),
                                           InlineKeyboardButton("Movie Channel", url='https://t.me/Anime_Movie_French')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
+                                          [InlineKeyboardButton("☕ News ☕", url='https://t.me/News_Guardians')]
                                           ]))
     
 
@@ -130,7 +130,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("🔺 Ongoing channel 🔺", url='https://t.me/Anime_Guardians_ongoing')],
                                                                      [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/shadow_Guardians'),
                                                                      InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Anime_Chat_Guardians')],
-                                                                     [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='843355648919@paytm')]
+                                                                     [InlineKeyboardButton("☕ News ☕", url='https://t.me/News_Guardians')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
